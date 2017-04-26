@@ -20,3 +20,5 @@ __OR__ execute the following command with the right IAM role ARN:
 ```
 aws stepfunctions create-state-machine --name coffee-shop --definition file://state-machine.json --role-arn [role-arn]
 ```
+6. Run the state machine with parameters described in JSON from [input.json](input.json).
+7. Adapt the value for "money" in the parameter JSON.
